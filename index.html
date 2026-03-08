@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecogram GG Personal Chatbot</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="chatbot-shell">
+      <header class="chat-header">
+        <div>
+          <p class="badge">Product Assistant</p>
+          <h1>Ecogram GG Bot</h1>
+          <p class="subtitle">A personalized chatbot template for your product.</p>
+        </div>
+      </header>
+
+      <section class="setup-card" aria-label="Personalization settings">
+        <h2>Personalize your bot</h2>
+        <div class="setup-grid">
+          <label>
+            Your name
+            <input id="ownerName" type="text" placeholder="e.g. Alex" />
+          </label>
+          <label>
+            Product focus
+            <input id="productFocus" type="text" placeholder="e.g. onboarding, pricing, features" />
+          </label>
+        </div>
+        <button id="saveProfile" type="button">Save profile</button>
+      </section>
+
+      <section class="chat-card" aria-label="Chat with Ecogram GG bot">
+        <div id="chatWindow" class="chat-window" aria-live="polite"></div>
+        <form id="chatForm" class="chat-form">
+          <input
+            id="userMessage"
+            type="text"
+            placeholder="Ask anything about Ecogram GG..."
+            autocomplete="off"
+            required
+          />
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
