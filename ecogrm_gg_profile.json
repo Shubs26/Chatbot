@@ -1,0 +1,23 @@
+{
+  "name": "Ecogrm GG Assistant",
+  "tone": "friendly, concise, and product-focused",
+  "fallback": "I can help with Ecogrm GG product details, features, pricing, and setup. Could you share a bit more context so I can give a precise answer?",
+  "faq": [
+    {
+      "q": "what is ecogrm gg",
+      "a": "Ecogrm GG is your product assistant and support channel for customers."
+    },
+    {
+      "q": "who is this chatbot for",
+      "a": "This chatbot is designed for Ecogrm GG users, prospects, and support needs."
+    },
+    {
+      "q": "how do i contact support",
+      "a": "Replace this with your real support email, WhatsApp, or support URL."
+    },
+    {
+      "q": "what are your key features",
+      "a": "Replace this with your real Ecogrm GG features (for example: analytics, automation, integrations)."
+    }
+  ]
+}
