@@ -1,0 +1,13 @@
+{
+  "name": "ecogram-chatbot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static chatbot site for Ecogram GG",
+  "scripts": {
+    "start": "serve -s . -l ${PORT:-3000}",
+    "build": "echo 'No build step required for static site'"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}
